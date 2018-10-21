@@ -17,7 +17,7 @@ This assumes only 1 duplicacy back is running.
 ## Use
 Copy the shell script to `~/.config/argos` and set `+x`.
 
-With duplicacy, use `-stats` and output to a folder. E.g.,
+With duplicacy, use `-stats` and output to a logfile. E.g.,
 `duplicacy backup -stats &> ~/duplicacy.backup.log`
 
 In the shell script, set the location of the backup log file (`backuplog`) and the location of where the file used to set pause/unpaused (`pausedfile`). Setting a relative path does not seem to work.
