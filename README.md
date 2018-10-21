@@ -1,5 +1,3 @@
-# duplicacy-gnome-extension
-
 A Gnome tray icon for [Duplicacy](https://duplicacy.com/), showing time until next backup and current upload rate. Also allows for pausing, running, and viewing the log file.
 
 
