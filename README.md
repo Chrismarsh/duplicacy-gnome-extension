@@ -22,7 +22,7 @@ With duplicacy, use `-stats` and output to a logfile. E.g.,
 
 In the shell script, set the location of the backup log file (`backuplog`) and the location of where the file used to set pause/unpaused (`pausedfile`). Setting a relative path does not seem to work.
 
-Set `croniter("*/30 * * * *"` in the inline python script to be your crontab pattern for the duplicacy backup run.
+Set `croniter("*/30 * * * *"` in the inline python script to be your crontab pattern for the duplicacy backup.
 
-In the script change, change `2s` to be however frequently you want the script to run.
+In the scriptname (`monitor_duplicacy.2s.sh`) change, change `2s` to be the frequency the monitor is run.
 
